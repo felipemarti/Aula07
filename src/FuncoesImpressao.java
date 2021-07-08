@@ -11,4 +11,11 @@ public class FuncoesImpressao {
 		System.out.println("5 - Realizar multiplicação");
 		System.out.println("6 - Sair");	
 	}
+
+	public static void exibirResultado(double resultado) {
+		System.out.println("O resultado foi " + resultado + "!\n\n");
+	}
+
+
+
 }
