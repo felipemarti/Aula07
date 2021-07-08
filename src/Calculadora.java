@@ -17,7 +17,7 @@ public class Calculadora {
 			switch(opcao) {
 			
 			case 1:
-				valores = FuncoesLeituraValores.lerValores();
+				valores = FuncoesLeituraValores.lerValores(leitor);
 				break;
 			
 			case 2:
